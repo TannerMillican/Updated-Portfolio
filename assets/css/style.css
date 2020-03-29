@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    width: 100%;
+}
+
+.d-block {
+    height: 300px;
+}
+
+#myPicture {
+    transform: rotate(90deg);
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.info {
+    color: white
+}
+
+.carousel-caption {
+    background-color: darkblue;
+    border-style: solid;
+    border-radius: 5%;
+    border-width: 5px;
+    border-color: wheat;
+    width: 500px;
+    margin-left: 17%;
+}
+
+h5 {
+    color: white;
+    font-family: 'Passion One', cursive;
+    font-size: 45px;
+}
+
+.head{
+    color: white;
+    font-family: 'Passion One', cursive;
+    font-size: 30px;
+}
+
+h3.info {
+    font-family: 'Passion One', cursive;
+    font-size: 30px;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: darkblue;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: darkblue;
+}
+
+@media screen and (max-width: 980px) {
+    .carousel-caption {
+        max-width: 300px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-caption {
+        max-width: 150px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .carousel-caption {
+        max-width: 90px;
+        width: auto;
+    }
+}
