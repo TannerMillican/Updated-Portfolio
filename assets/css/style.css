@@ -23,6 +23,10 @@ body {
     color: white
 }
 
+#userInfo {
+    font-size: 10px;
+}
+
 .carousel-caption {
     background-color: darkblue;
     border-style: solid;
