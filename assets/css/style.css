@@ -8,7 +8,6 @@ body {
 }
 
 #myPicture {
-    transform: rotate(90deg);
     width: 300px;
     height: auto;
     margin-top: 50px;
